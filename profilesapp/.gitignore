@@ -29,3 +29,22 @@ node_modules
 .amplify
 amplify_outputs*
 amplifyconfiguration*
+
+# terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.*
+*.tfplan
+*.tfplan.*
+
+# Local env files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
